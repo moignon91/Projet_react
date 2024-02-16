@@ -1,0 +1,58 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  min-height: 70px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+.BlockNavButton {
+  position: absolute;
+  margin-right: 20px;
+  right: 0;
+  padding: 0px;
+  min-width: 50px;
+  min-height: 50px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  float: right;
+}
+.BlockNavImg {
+  width: 30px;
+  margin-top: 5px;
+}
+.BlockNavButton p {
+  font-size: 12px;
+  position: absolute;
+  margin-top: -15px;
+  margin-left: 50px;
+  min-width: 20px;
+  min-height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 100px;
+  background-color: rgb(163, 12, 12);
+}

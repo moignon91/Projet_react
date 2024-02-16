@@ -1,0 +1,56 @@
+.BlockMovie {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.BlockMoviePad {
+  padding: 20px;
+}
+.BlockMovieIn {
+  margin-top: 20px;
+  padding: 20px;
+  width: 350px;
+  height: 400px;
+  border-radius: 30px;
+  background-color: rgb(255, 255, 255);
+}
+.BlockMovieInImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 260px;
+}
+.BlockMovieInImg img {
+  max-width: 170px;
+  max-height: 250px;
+}
+
+.BlockMovieIn p {
+  margin-bottom: 0px;
+  width: 100%;
+}
+
+.BlockMovieInTitle {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.BlockMovieInButton {
+  background-color: rgba(255, 255, 255, 0);
+  text-align: left;
+  padding: 10px;
+}
+.BlockMovieButtonAjout {
+  width: 100%;
+  display: flex;
+  justify-content: right;
+}
+.BlockMovieButtonAjout button {
+  transition: background-color 300ms ease-out 100ms;
+  transition: color 200ms ease-out 100ms;
+}
+.BlockMovieButtonAjout button:hover {
+  background-color: #0c0c0c;
+  color: white;
+}
